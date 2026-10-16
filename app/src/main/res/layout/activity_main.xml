@@ -108,6 +108,13 @@
             android:layout_height="wrap_content"
             android:text="@string/buoi_toi" />
 
+        <!-- NC2: số buổi đã chọn -->
+        <TextView
+            android:id="@+id/tvSoBuoi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic" />
+
         <!-- ===== Switch (Material) và ToggleButton (widget cũ) ===== -->
         <com.google.android.material.materialswitch.MaterialSwitch
             android:id="@+id/swThongBao"
@@ -125,6 +132,15 @@
             android:layout_marginTop="8dp"
             android:textOff="@string/uu_tien_off"
             android:textOn="@string/uu_tien_on" />
+
+        <!-- NC3: bật/tắt chế độ tối -->
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/swCheDoToi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:minHeight="48dp"
+            android:text="@string/label_che_do_toi" />
 
         <!-- ===== Nút ===== -->
         <LinearLayout
